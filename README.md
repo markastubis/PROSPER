@@ -64,3 +64,30 @@ While this code provides valuable insights into the determinants of interest rat
 Firstly, the dataset used is limited to the Prosper marketplace, which may not fully represent the broader P2P lending market, potentially affecting the generalizability of the findings. Additionally, the study relies on historical data, and the dynamic nature of economic conditions and market practices may influence the applicability of the results over time. Another limitation is the potential for omitted variable bias, as there may be relevant factors influencing interest rates that were not included in the dataset or the analysis. For example, borrower-specific qualitative factors such as the narrative provided in loan applications or lender-specific behaviors could also significantly impact interest rates but are challenging to quantify and were not considered. Furthermore, while I incorporated official Federal Reserve interest rates, the study did not account for other macroeconomic variables like inflation rates or broader financial market trends, which could also affect lending rates. Lastly, the regression models assume linear relationships between variables and interest rates, which may oversimplify the complex interactions in the real world.
 
 Previous analysis shows that the 2 largest components of the interest rate in Prosper's P2P lending market are Term of the loan and Prosper Rating with the former indicating a positive relationship with the borrower's interest rate, the latter suggests an extremely strong negative relationship. Even though there are other statistically significant variables, their effects on expected risk and by extension the borrowers interest rate on the loan are extremely minimal. The substantial data analysed suggests, that Prosper Rating is a variable accurately explaining borrower's interest rate, and even though, the collinearity with other variables investigated was not significant, the explanation of an extremely significant Prosper Rating's results can lie in the composition of this variable.
+
+##Data description
+Duration of the loan in our dataset is the length of the loan expressed in months. Prosper score which in our case is assigned at the time the listing was created and is numeric with 1 representing the worst prosper rating and 7 being the best. 
+
+Is borrower a homeowner?, will onlybe classified as homeowner if they have a mortgage on their credit profile or provide documentation confirming they are a homeowner.
+
+Is borrower currently in a group? Speciffies whether or not the Borrower was in a group at the time the listing was created. 
+
+Currentcredit lines Which is just a number of current credit lines at the time the credit profile was pulled. 
+
+Total credit lines in the last 7 years defined as a number of credit lines in the past seven years at the time the credit prole was pulled. This is an extremely interesting variable which could indicate the psychology of the borrower. 
+
+Open Revolving accounts number of open revolving accounts at the timethe credit prole was pulled. The main difference between revolving accounts and credit lines is how they operate. With credit line being a
+one-time financial arrangement that is closed when the borrower spends the set amount of credit. And revolving account can be used and repaid over and over again up to a certain credit limit. 
+
+Open Revolving monthly payment is a monthly payment on revolving accounts at the time the credit profile was pulled.
+
+Stated monthly income defined as the monthly income the borrower stated at the time the listing was created. 
+
+Current delinquencies just a number of accounts delinquent at the time the credit profile was pulled. 
+
+Delinquencies in the last 7 years is a number of delinquencies in the past 7 years at the time the credit profile was pulled, which again speaks to the psychology and the history of the borrower. 
+
+Recommendations dened as a number of recommendations the borrower had at the time the listing was created.
+
+And the last variable Credit score upper and lower ranges which is just their interval for their credit score.
+
