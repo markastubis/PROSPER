@@ -4,6 +4,14 @@ I uploaded either one ZIP file or as seperate functions, you can choose what you
 This is a long explanation of my project, starting from introduction, methodology and so on.
 You can find data description at the end.
 
+
+Main objectives of the code
+The primary objective of this study is to identify and analyze the main determinants of interest rates in consumer P2P lending. Specifically, I aim to:
+a.) Investigate the impact of borrower characteristics on interest rates.
+b.) Examine how loan-specifc attributes infuence borrowing costs.
+c.) Assess the role of external economic conditions and platform policies in interest rate determination.
+
+
 Now about this project :
 Consumer peer-to-peer lending is rapidly gaining popularity across the globe as a compelling alternative to traditional bank loans. This modern financial phenomenon leverages the power of technology to connect individual borrowers directly with lenders, democratizing the lending process and often enabling quicker, more flexible loan arrangements. Despite its increasing adoption, there remains a considerable amount of uncertainty surrounding the determination of interest rates within this sector. Crucial criteria for setting these rates are often complex and involve factors such as credit risk assessments, market conditions, and regulatory considerations. This code explores the main interest rate determinants in the Prosper marketplace.
 
@@ -12,13 +20,6 @@ The advent of technology has revolutionized various sectors, including finance, 
 Consumer P2P lending has gained signifficant traction globally, driven by the need for accessible credit and the allure of potentially higher returns for lenders. However, the determination of interest rates within this sector remains a complex and somewhat of a hazy process. Unlike traditional banking, where interest rates are inuenced by institutional policies and market conditions, P2P lending platforms rely on a multitude of factors to set rates. These include the creditworthiness of borrowers, market dynamics, regulatory frameworks as well as institutional policies.
 
 Understanding the determinants of interest rates in P2P lending is crucial for both borrowers and lenders. Borrowers seek to obtain loans at the lowest possible cost, while lenders aim to maximize their returns while mitigating risk. This code delves into the main factors influencing interest rates in the P2P lending market, using data from the Prosper marketplace prominent P2P lending platform. This code aims to provide a comprehensive analysis of the variables that signifficantly affect interest rates in P2P lending. By examining these factors, i can offer insights into how rates are set and how various borrower characteristics and loan attributes influence borrowing costs. 
-
-
-2. Main objectives of the code
-The primary objective of this study is to identify and analyze the main determinants of interest rates in consumer P2P lending. Specifically, I aim to:
-a.) Investigate the impact of borrower characteristics on interest rates.
-b.) Examine how loan-specifc attributes infuence borrowing costs.
-c.) Assess the role of external economic conditions and platform policies in interest rate determination.
 
 
 Design:
